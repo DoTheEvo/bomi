@@ -10,7 +10,6 @@ DESTDIR = $${PWD}/../../build
 LIB_DIR = $${DESTDIR}/lib
 INCLUDEPATH += ../mpv ../mpv/build kiss_fft
 LIBS += -L$${LIB_DIR} -lbz2 -lz
-QMAKE_LINK = g++-5.3.0
 
 include(configure.pro)
 !isEmpty(BOMI_RELEASE) {
