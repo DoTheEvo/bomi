@@ -11,7 +11,7 @@ struct FileNameGenerator {
     QTime start, end;
     QString mediaName;
     Mrl mrl;
-    quint64 unix = 0;
+    quint64 UNIX = 0;
 };
 
 #endif // FILENAMEGENERATOR_HPP

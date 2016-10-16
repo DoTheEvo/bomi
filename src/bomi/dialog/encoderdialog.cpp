@@ -255,7 +255,7 @@ auto EncoderDialog::run() -> QString
 {
     if (d->size.isEmpty())
         return tr("No video stream exists.");
-    d->g.unix = QDateTime::currentMSecsSinceEpoch();
+    d->g.UNIX = QDateTime::currentMSecsSinceEpoch();
     d->g.dateTime = QDateTime::currentDateTime();
     d->g.start = d->ui.a->time();
     d->g.end = d->ui.b->time();
